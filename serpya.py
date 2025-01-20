@@ -32,7 +32,7 @@ def finalize(mot):
 	mot = re.sub("-(["+C+"])(["+C+"])","\\1-\\2",mot)
 	# doublement de consonne avant un découpage
 	mot = re.sub("([smt])\\1-","\\1-\\1",mot)
-	# on enlève la cvoupure pour les consonnes en fin de mot
+	# on enlève la coupure pour les consonnes en fin de mot
 	mot = re.sub("-([zrtpmlkjhgfdsqwxcvbnç]*)$","\\1",mot)
 	# découpages had oc
 	mot = re.sub("([ct])-h","-\\1h",mot)
