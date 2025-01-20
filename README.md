@@ -1,2 +1,2 @@
 # Serpya
-Découpage en syllabes pour le français
+Programme simple pour un découpage en syllabes pour le français
